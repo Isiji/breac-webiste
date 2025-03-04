@@ -1,0 +1,26 @@
+.product-card {
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+.product-logo {
+    transition: transform 0.5s ease-in-out;
+}
+.product-card:hover .product-logo {
+    transform: rotate(360deg);
+}
+.product-title {
+    transition: color 0.3s ease-in-out;
+}
+.product-card:hover .product-title {
+    color: #ff6600;
+}
+.product-link {
+    text-decoration: none;
+    color: inherit;
+}
+.product-link:hover {
+    text-decoration: underline;
+}
