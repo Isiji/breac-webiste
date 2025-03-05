@@ -1,31 +1,45 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import { motion } from 'framer-motion';
+
+// Import service images
+import aviationImg from '../assets/images/aviation.jpg';
+import cargoImg from '../assets/images/cargoImg.jpg';
+import marketingImg from '../assets/images/event-prop.jpeg';
 
 const services = [
-    { title: "Aviation Consultancy", icon: "✈️", description: "Expert advice on permits, registration, and charters." },
-    { title: "Cargo Forwarding", icon: "📦", description: "Sea & air logistics, including live animal transport." },
-    { title: "Marketing & PR", icon: "📢", description: "Branding, event décor, and promotional strategies." },
-    { title: "Flour Milling", icon: "🌾", description: "High-quality maize flour for institutions and partners." }
+    { title: "Aviation Consultancy", image: aviationImg, description: "Expert advice on permits, registration, and charters." },
+    { title: "Cargo Forwarding", image: cargoImg, description: "Sea & air logistics, including live animal transport." },
+    { title: "Marketing & PR", image: marketingImg, description: "Branding, event décor, and promotional strategies." },
 ];
 
 const Services = () => {
     return (
-        <Container className="my-5">
-            <h2 className="text-center">Our Services</h2>
-            <Row>
-                {services.map((service, index) => (
-                    <Col md={3} key={index}>
-                        <Card className="text-center">
-                            <Card.Body>
-                                <h2>{service.icon}</h2>
-                                <Card.Title>{service.title}</Card.Title>
-                                <Card.Text>{service.description}</Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                ))}
-            </Row>
-        </Container>
+        <motion.div
+            initial={{ opacity: 0, x: -200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 1.5 }}
+        >
+            <Container className="my-5">
+                <h2 className="text-center">Our Services</h2>
+                <Row>
+                    {services.map((service, index) => (
+                        <Col md={3} key={index}>
+                            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.2 }}>
+                                <Card className="text-center">
+                                    <Card.Img variant="top" src={service.image} alt={service.title} />
+                                    <Card.Body>
+                                        <Card.Title>{service.title}</Card.Title>
+                                        <Card.Text>{service.description}</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </motion.div>
+                        </Col>
+                    ))}
+                </Row>
+            </Container>
+        </motion.div>
     );
 };
 
