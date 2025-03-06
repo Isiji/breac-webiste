@@ -1,25 +1,19 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Container, Card } from 'react-bootstrap';
-import products from '../data/products';
+import { Container } from 'react-bootstrap';
+import products from '../data/products'; // Import product data
 
 const ProductDetail = () => {
-    const { id } = useParams();
-    const product = products.find(p => p.id === parseInt(id));
+    const { productId } = useParams();
+    const product = products.find((p) => p.id === productId);
 
-    if (!product) {
-        return <Container className="my-5"><h2>Product not found</h2></Container>;
-    }
+    if (!product) return <Container><h2>Product Not Found</h2></Container>;
 
     return (
         <Container className="my-5">
-            <Card>
-                <Card.Img variant="top" src={product.image} />
-                <Card.Body>
-                    <Card.Title>{product.name}</Card.Title>
-                    <Card.Text>{product.details}</Card.Text>
-                </Card.Body>
-            </Card>
+            <h2>{product.name}</h2>
+            <img src={product.image} alt={product.name} className="product-detail-image" />
+            <p>{product.details}</p>
         </Container>
     );
 };
