@@ -1,8 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-
-// Import service images
 import aviationImg from '../assets/images/aviation.jpg';
 import cargoImg from '../assets/images/cargoImg.jpg';
 import marketingImg from '../assets/images/event-prop.jpeg';
@@ -10,7 +8,7 @@ import marketingImg from '../assets/images/event-prop.jpeg';
 const services = [
     { title: "Aviation Consultancy", image: aviationImg, description: "Expert advice on permits, registration, and charters." },
     { title: "Cargo Forwarding", image: cargoImg, description: "Sea & air logistics, including live animal transport." },
-    { title: "Marketing & PR", image: marketingImg, description: "Branding, event décor, and promotional strategies." },
+    { title: "Marketing & PR", image: marketingImg, description: "Branding, event décor, and promotional strategies." }
 ];
 
 const Services = () => {
@@ -25,10 +23,10 @@ const Services = () => {
                 <h2 className="text-center">Our Services</h2>
                 <Row>
                     {services.map((service, index) => (
-                        <Col md={3} key={index}>
+                        <Col md={4} key={index}>
                             <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.2 }}>
                                 <Card className="text-center">
-                                    <Card.Img variant="top" src={service.image} alt={service.title} />
+                                    <Card.Img variant="top" src={service.image} alt={service.title} className="service-image" />
                                     <Card.Body>
                                         <Card.Title>{service.title}</Card.Title>
                                         <Card.Text>{service.description}</Card.Text>

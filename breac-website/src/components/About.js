@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { motion } from 'framer-motion';
+import aboutImg from '../assets/images/about.jpeg'; // Import image
 
 const About = () => {
     return (
@@ -22,7 +23,7 @@ const About = () => {
                     </Col>
                     <Col md={6}>
                         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.2 }}>
-                            <Image src="/images/about-us.jpg" fluid rounded />
+                            <Image src={aboutImg} fluid rounded />
                         </motion.div>
                     </Col>
                 </Row>
