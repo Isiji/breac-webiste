@@ -1,0 +1,29 @@
+.contact-container {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.contact-form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+    margin-right: 5px;
+    color: #ff5e62;
+}
+
+.contact-btn {
+    background-color: #ff5e62;
+    border: none;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.contact-btn:hover {
+    background-color: #e04e55;
+}
