@@ -20,10 +20,10 @@ const Products = () => {
             transition={{ duration: 1.5 }}
         >
             <Container className="my-5">
-                <h2 className="text-center">Our Products</h2>
-                <Row>
+                <h2 className="text-center mb-4">Our Products</h2>
+                <Row className="g-4"> {/* Bootstrap spacing class */}
                     {products.map((product, index) => (
-                        <Col md={4} key={index}>
+                        <Col md={4} key={index} className="product-spacing">
                             <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.2 }}>
                                 <Card className="text-center">
                                     <Card.Img variant="top" src={product.image} className="product-image" />

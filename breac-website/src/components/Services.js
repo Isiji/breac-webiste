@@ -20,10 +20,10 @@ const Services = () => {
             transition={{ duration: 1.5 }}
         >
             <Container className="my-5">
-                <h2 className="text-center">Our Services</h2>
-                <Row>
+                <h2 className="text-center mb-4">Our Services</h2>
+                <Row className="g-4"> {/* Bootstrap spacing class */}
                     {services.map((service, index) => (
-                        <Col md={4} key={index}>
+                        <Col md={4} key={index} className="service-spacing">
                             <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.2 }}>
                                 <Card className="text-center">
                                     <Card.Img variant="top" src={service.image} alt={service.title} className="service-image" />

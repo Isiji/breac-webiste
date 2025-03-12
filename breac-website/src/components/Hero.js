@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -14,7 +15,9 @@ const Hero = () => {
                 <Container className="text-center">
                     <h1>Doing It Right</h1>
                     <p>Providing essential life needs with the best quality products and services.</p>
-                    <Button className="hero-btn">Learn More</Button>
+                    <Link to="/about">
+                        <Button className="hero-btn">Learn More</Button>
+                    </Link>
                 </Container>
             </motion.div>
         </div>

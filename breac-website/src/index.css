@@ -38,3 +38,22 @@ body {
     border-radius: 8px; /* Optional: rounded corners */
 }
 
+.product-spacing {
+    padding-bottom: 30px; /* Adds spacing between items */
+}
+
+@media (max-width: 768px) {
+    .product-spacing {
+        padding-bottom: 40px; /* Extra spacing on small screens */
+    }
+}
+
+.service-spacing {
+    padding-bottom: 30px; /* Adds spacing between service items */
+}
+
+@media (max-width: 768px) {
+    .service-spacing {
+        padding-bottom: 40px; /* Extra spacing for smaller screens */
+    }
+}

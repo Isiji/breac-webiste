@@ -1,0 +1,20 @@
+.home-section-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-section-link:hover {
+    transform: scale(1.02);
+}
+
+.section-spacing {
+    margin-bottom: 80px; /* Default spacing */
+}
+
+@media (max-width: 768px) {
+    .section-spacing {
+        margin-bottom: 100px; /* Increase spacing for smaller screens */
+    }
+}
