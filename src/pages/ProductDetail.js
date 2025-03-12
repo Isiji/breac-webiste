@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
-import products from '../data/products'; // Import product data
+import products from '../data/products';
 
 const ProductDetail = () => {
     const { productId } = useParams();
