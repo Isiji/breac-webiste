@@ -16,10 +16,27 @@ const About = () => {
                 <Row className="align-items-center">
                     <Col md={6}>
                         <p>
-                            Established in 2017, Breac Ltd unifies multiple businesses under one entity.
-                            Our mission is to provide high-quality products and services at affordable prices,
-                            positively impacting society and the environment.
+                        Breac Ltd is a conglomerate of several entities that carry out different business activities.
+                        Breac Limited was incorporated in the year 2017 to unify all the private entities into a single 
+                        unit for ease of doing business with our clients by providing a single tag for all our services and products.
+
+                        At Breac Ltd, we believe in doing things right from the start in order to lessen the burden 
+                        that comes after purchase of our goods and services, hence our slogan; “Doing It Right”.
+
                         </p>
+                        <p> <h1>Our Products:</h1>
+	                        <p>- Healthcare equipment and Healthcare products supplies.</p>
+	                        <p>- Flour Milling.</p>
+	                        <p>- Animals Feeds</p>
+	                        <p>- Toilet paper and sanitary ware production.</p>
+                        <h1>Our Services:</h1>
+	                        <p>- Outsourced Productions and general supplies.</p>
+                            <p>- Outsourced Productions and general supplies.</p>
+	                        <p>- Aviation Research analysis and Aviation Consultancy.</p>
+	                        <p>- Cargo Clearing and Forwarding services.</p>
+	                        <p>- PR and Marketing Consultancy</p>
+	                        <p>- Events Deco Branding</p>
+</p>
                     </Col>
                     <Col md={6}>
                         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.2 }}>

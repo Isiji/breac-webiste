@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import services from '../data/services';
 import './Services.css';
 
-const whatsappNumber = "254700000000"; // Replace with actual number
+const whatsappNumber = "254711772930"; // Replace with actual number
 
 const Services = () => {
     return (
@@ -37,7 +37,11 @@ const Services = () => {
                                 >
                                     <Card.Body>
                                         <Card.Title>{service.title}</Card.Title>
-                                        <Card.Text>{service.description}</Card.Text>
+                                        <ul>
+                                            {service.description.map((point, i) => (
+                                                <li key={i}>{point}</li>
+                                            ))}
+                                        </ul>
                                         {/* WhatsApp Button */}
                                         <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                                             <Button variant="success" className="mt-2">Inquire or Order via WhatsApp</Button>

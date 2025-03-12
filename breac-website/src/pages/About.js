@@ -17,9 +17,24 @@ const About = () => {
                         transition={{ duration: 1.5 }}
                     >
                         <p>
-                            Established in 2017, Breac Ltd unifies multiple businesses under one entity. 
-                            Our mission is to provide high-quality products and services at affordable prices, 
-                            positively impacting society and the environment.
+                        Breac Ltd is a conglomerate of several entities that carry out different business activities.
+                        Breac Limited was incorporated in the year 2017 to unify all the private entities into a single 
+                        unit for ease of doing business with our clients by providing a single tag for all our services and products.
+
+                        At Breac Ltd, we believe in doing things right from the start in order to lessen the burden that comes after
+                        purchase of our goods and services, hence our slogan; “Doing It Right”.
+
+                        </p>
+                        <p> <h1>Our Mission: </h1>
+                            Provide essential life needs to the living to have a better life by, giving the best quality 
+                            products and services at the most affordable value that will impact positively to the world, 
+                            environment, the society and the individuals in the community.
+                        </p>
+                        <p>
+                            Breac Limited employs experts in all our entities who have vast experience in all the businesses that we are involved in.
+                            Our Products range from home essential kits to Foodstuffs.
+                            Our services entail; Aviation consultancy, Outsourced production, Events deco branding, PR and Marketing consultancy services.
+
                         </p>
                     </motion.div>
                 </Col>
