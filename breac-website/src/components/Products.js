@@ -21,6 +21,8 @@ const Products = () => {
         >
             <Container className="my-5">
                 <h2 className="text-center mb-4">Our Products</h2>
+                <p><i>At BREAC LTD, we provide essential everyday solutions for your health and comfort. 
+                From premium healthcare products to soft, reliable facial tissues, our range is designed to keep you and your family cared for. Explore our collection and experience quality you can trust</i></p>
                 <Row className="g-4"> {/* Bootstrap spacing class */}
                     {products.map((product, index) => (
                         <Col md={4} key={index} className="product-spacing">
