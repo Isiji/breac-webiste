@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/breac-website/static/css/main.4efe2b63.css",
+    "main.js": "/breac-website/static/js/main.4e13af14.js",
+    "static/js/453.8b9491ab.chunk.js": "/breac-website/static/js/453.8b9491ab.chunk.js",
+    "static/media/healthcare.jpg": "/breac-website/static/media/healthcare.de2775dd19009e1fd8cc.jpg",
+    "static/media/toilet-paper.jpg": "/breac-website/static/media/toilet-paper.c0b626c8d3a90abcb974.jpg",
+    "static/media/cargoImg.jpg": "/breac-website/static/media/cargoImg.0da1793f81e9db37fe6a.jpg",
+    "static/media/aviation.jpg": "/breac-website/static/media/aviation.7687f7ae9e3b413cb666.jpg",
+    "static/media/bg.jpeg": "/breac-website/static/media/bg.00e3098968223b82fdf0.jpeg",
+    "static/media/about.jpeg": "/breac-website/static/media/about.107e70a91dcb43ede1a6.jpeg",
+    "static/media/event-prop.jpeg": "/breac-website/static/media/event-prop.b4ffd15675704d7aaa31.jpeg",
+    "static/media/facial-tissues.jpg": "/breac-website/static/media/facial-tissues.0bf40f6f219b38df3f9a.jpg",
+    "index.html": "/breac-website/index.html",
+    "main.4efe2b63.css.map": "/breac-website/static/css/main.4efe2b63.css.map",
+    "main.4e13af14.js.map": "/breac-website/static/js/main.4e13af14.js.map",
+    "453.8b9491ab.chunk.js.map": "/breac-website/static/js/453.8b9491ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4efe2b63.css",
+    "static/js/main.4e13af14.js"
+  ]
+}
