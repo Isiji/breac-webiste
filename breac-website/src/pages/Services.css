@@ -13,3 +13,23 @@
         padding-left: 0 !important;
     }
 }
+
+.service-container {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* Adds spacing between image and text */
+}
+
+.service-logo {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .service-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
