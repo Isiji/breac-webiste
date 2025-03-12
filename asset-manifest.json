@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/breac-webiste/static/css/main.492ab714.css",
-    "main.js": "/breac-webiste/static/js/main.11db17da.js",
+    "main.js": "/breac-webiste/static/js/main.d676b6c8.js",
     "static/js/453.40d8176c.chunk.js": "/breac-webiste/static/js/453.40d8176c.chunk.js",
     "static/media/healthcare.jpg": "/breac-webiste/static/media/healthcare.de2775dd19009e1fd8cc.jpg",
     "static/media/toilet-paper.jpg": "/breac-webiste/static/media/toilet-paper.c0b626c8d3a90abcb974.jpg",
@@ -13,11 +13,11 @@
     "static/media/facial-tissues.jpg": "/breac-webiste/static/media/facial-tissues.0bf40f6f219b38df3f9a.jpg",
     "index.html": "/breac-webiste/index.html",
     "main.492ab714.css.map": "/breac-webiste/static/css/main.492ab714.css.map",
-    "main.11db17da.js.map": "/breac-webiste/static/js/main.11db17da.js.map",
+    "main.d676b6c8.js.map": "/breac-webiste/static/js/main.d676b6c8.js.map",
     "453.40d8176c.chunk.js.map": "/breac-webiste/static/js/453.40d8176c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.492ab714.css",
-    "static/js/main.11db17da.js"
+    "static/js/main.d676b6c8.js"
   ]
 }
