@@ -1,0 +1,29 @@
+name: Deploy React App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Deploy when changes are pushed to main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Move into Project Directory
+      run: cd breac-website/breac-website  # Navigate into the correct subfolder
+
+    - name: Install Dependencies and Build
+      run: |
+        cd breac-website/breac-website  # Make sure commands run inside the project folder
+        npm install
+        npm run build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./breac-website/breac-website/build  # Ensure the build folder is deployed
