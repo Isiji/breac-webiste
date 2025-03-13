@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/breac-webiste/static/css/main.492ab714.css",
-    "main.js": "/breac-webiste/static/js/main.d676b6c8.js",
+    "main.css": "/breac-webiste/static/css/main.8327d12d.css",
+    "main.js": "/breac-webiste/static/js/main.432768ce.js",
     "static/js/453.40d8176c.chunk.js": "/breac-webiste/static/js/453.40d8176c.chunk.js",
-    "static/media/healthcare.jpg": "/breac-webiste/static/media/healthcare.de2775dd19009e1fd8cc.jpg",
-    "static/media/toilet-paper.jpg": "/breac-webiste/static/media/toilet-paper.c0b626c8d3a90abcb974.jpg",
-    "static/media/cargoImg.jpg": "/breac-webiste/static/media/cargoImg.0da1793f81e9db37fe6a.jpg",
-    "static/media/aviation.jpg": "/breac-webiste/static/media/aviation.7687f7ae9e3b413cb666.jpg",
-    "static/media/bg.jpeg": "/breac-webiste/static/media/bg.00e3098968223b82fdf0.jpeg",
-    "static/media/about.jpeg": "/breac-webiste/static/media/about.107e70a91dcb43ede1a6.jpeg",
-    "static/media/event-prop.jpeg": "/breac-webiste/static/media/event-prop.b4ffd15675704d7aaa31.jpeg",
-    "static/media/facial-tissues.jpg": "/breac-webiste/static/media/facial-tissues.0bf40f6f219b38df3f9a.jpg",
+    "static/media/charter-flight.jpg": "/breac-webiste/static/media/charter-flight.b18fda54857ee4cd2242.jpg",
+    "static/media/bgvideo.mp4": "/breac-webiste/static/media/bgvideo.73c42fccf6a74f7b8cda.mp4",
+    "static/media/p4-jag.jpg": "/breac-webiste/static/media/p4-jag.22578013142f5a0a4f86.jpg",
+    "static/media/cobrex.jpg": "/breac-webiste/static/media/cobrex.972e6dab7e5a6fa1ce65.jpg",
+    "static/media/about.jpeg": "/breac-webiste/static/media/about.00e3098968223b82fdf0.jpeg",
+    "static/media/cargoImg.jpg": "/breac-webiste/static/media/cargoImg.c7075c282a577a3dc7d4.jpg",
+    "static/media/airplane.jpg": "/breac-webiste/static/media/airplane.5a581e44ecfb187a1de9.jpg",
+    "static/media/SAC-Logo.jpg": "/breac-webiste/static/media/SAC-Logo.fd847ab0b18fcf0fb461.jpg",
+    "static/media/aircargo.jpg": "/breac-webiste/static/media/aircargo.00f8e49b0ee742bb8217.jpg",
+    "static/media/aviationconsultancy.webp": "/breac-webiste/static/media/aviationconsultancy.ba3f0e4a5f854b59404c.webp",
     "index.html": "/breac-webiste/index.html",
-    "main.492ab714.css.map": "/breac-webiste/static/css/main.492ab714.css.map",
-    "main.d676b6c8.js.map": "/breac-webiste/static/js/main.d676b6c8.js.map",
+    "main.8327d12d.css.map": "/breac-webiste/static/css/main.8327d12d.css.map",
+    "main.432768ce.js.map": "/breac-webiste/static/js/main.432768ce.js.map",
     "453.40d8176c.chunk.js.map": "/breac-webiste/static/js/453.40d8176c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.492ab714.css",
-    "static/js/main.d676b6c8.js"
+    "static/css/main.8327d12d.css",
+    "static/js/main.432768ce.js"
   ]
 }
