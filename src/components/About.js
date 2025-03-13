@@ -24,19 +24,11 @@ const About = () => {
                         that comes after purchase of our goods and services, hence our slogan; “Doing It Right”.
 
                         </p>
-                        <p> <h1>Our Products:</h1>
-	                        <p>- Healthcare equipment and Healthcare products supplies.</p>
-	                        <p>- Flour Milling.</p>
-	                        <p>- Animals Feeds</p>
-	                        <p>- Toilet paper and sanitary ware production.</p>
                         <h1>Our Services:</h1>
-	                        <p>- Outsourced Productions and general supplies.</p>
                             <p>- Outsourced Productions and general supplies.</p>
 	                        <p>- Aviation Research analysis and Aviation Consultancy.</p>
 	                        <p>- Cargo Clearing and Forwarding services.</p>
 	                        <p>- PR and Marketing Consultancy</p>
-	                        <p>- Events Deco Branding</p>
-</p>
                     </Col>
                     <Col md={6}>
                         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.2 }}>

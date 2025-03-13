@@ -1,5 +1,5 @@
 .contact-container {
-    background: linear-gradient(to right, #ff9966, #ff5e62);
+    background: linear-gradient(to right, #00509e, #003366); /* Blue gradient */
     padding: 40px;
     border-radius: 10px;
     color: white;
@@ -14,16 +14,17 @@
 
 .contact-icon {
     margin-right: 5px;
-    color: #ff5e62;
+    color: #003366; /* Dark Blue */
 }
 
 .contact-btn {
-    background-color: #ff5e62;
+    background-color: #00509e; /* Deep Blue */
     border: none;
     width: 100%;
     font-size: 1.2rem;
+    color: white;
 }
 
 .contact-btn:hover {
-    background-color: #e04e55;
+    background-color: #003366; /* Darker Blue */
 }

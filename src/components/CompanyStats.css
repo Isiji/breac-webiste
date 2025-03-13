@@ -1,0 +1,23 @@
+.company-stats-container {
+    background-color: #e6f0ff; /* Light Blue Background */
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.stats-box {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stat-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #003366;
+}
+
+.stat-title {
+    font-size: 1.2rem;
+    color: #00509e;
+}

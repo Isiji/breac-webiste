@@ -1,39 +1,37 @@
-import aviation from "../assets/images/aviation.jpg";
-import cargoImg from "../assets/images/cargoImg.jpg";
-import eventprop from "../assets/images/event-prop.jpeg";
+import aviationConsultancy from "../assets/images/aviationconsultancy.webp";
+import cargoHandling from "../assets/images/cargoImg.jpg";
+import charterFlights from "../assets/images/charter-flight.jpg";
 
 const services = [
     { 
         id: "aviation-consultancy", 
         title: "Aviation Consultancy", 
-        image: aviation, 
+        image: aviationConsultancy, 
         description: [
             "Landing and Overflight Permits",
-            "Registration of aircraft and private landing aerodromes",
-            "Business research and market analysis for new and existing airlines in Kenya",
-            "Coordinating charter flights for ad-hoc carriers in Kenya",
-            "Sourcing for ground handling and general sales agency for new and existing carriers",
-            "VIP/Private jet sourcing and handling within Africa and Europe"
+            "Aircraft registration and licensing",
+            "Market analysis for new airlines",
+            "VIP and private jet handling"
         ]
     },
     { 
-        id: "cargo-forwarding", 
-        title: "Cargo Clearing & Forwarding", 
-        image: cargoImg, 
+        id: "cargo-handling", 
+        title: "Cargo Handling & Forwarding", 
+        image: cargoHandling, 
         description: [
-            "Handling both air and sea cargo clearing and forwarding",
-            "Live animal transportation (Horses, Pets, and lab research animals)",
-            "Complete import and export logistics from source to doorstep"
+            "Air cargo clearance and logistics",
+            "Live animal transportation",
+            "Complete import/export handling"
         ]
     },
     { 
-        id: "events-deco", 
-        title: "Events Deco Branding", 
-        image: eventprop, 
+        id: "charter-flights", 
+        title: "Charter Flight Coordination", 
+        image: charterFlights, 
         description: [
-            "Special event branding of vehicles, textile materials, and venues",
-            "Provision of props through our trusted industry partners",
-            "Printing of event materials, gifts, giveaways, and stationery"
+            "Sourcing and coordinating charters",
+            "Ground handling support",
+            "Ad-hoc flight management"
         ]
     }
 ];

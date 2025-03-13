@@ -9,7 +9,7 @@ const whatsappNumber = "254711772930"; // Replace with actual number
 const Services = () => {
     return (
         <Container className="my-5">
-            <h2 className="text-center mb-4">Our Services</h2>
+            <h2 className="text-center mb-4">Our Airline Services</h2>
             <Row>
                 {services.map((service, index) => {
                     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Hello, I'm interested in ${service.title}.`)}`;
@@ -44,7 +44,7 @@ const Services = () => {
                                         </ul>
                                         {/* WhatsApp Button */}
                                         <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-                                            <Button variant="success" className="mt-2">Inquire or Order via WhatsApp</Button>
+                                            <Button variant="primary" className="mt-2">Inquire via WhatsApp</Button>
                                         </a>
                                     </Card.Body>
                                 </motion.div>

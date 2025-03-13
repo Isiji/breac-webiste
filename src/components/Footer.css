@@ -1,0 +1,35 @@
+/* Ensure Footer Background is Light Blue */
+.footer {
+    background-color: #b3d9ff !important; /* Light Blue */
+    color: black; /* Dark Blue Text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Centered Logo */
+.footer-logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-logo-img {
+    height: 60px;
+    width: auto;
+}
+
+/* Footer Icons */
+.footer-icon {
+    color: #003366 !important; /* Dark Blue */
+    margin-right: 5px;
+}
+
+/* Footer Links */
+.footer-link {
+    color: black; /* black */
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #003366 !important;
+}

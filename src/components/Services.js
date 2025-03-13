@@ -1,14 +1,26 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import aviationImg from '../assets/images/aviation.jpg';
+import aviationImg from '../assets/images/aviationconsultancy.webp';
 import cargoImg from '../assets/images/cargoImg.jpg';
-import marketingImg from '../assets/images/event-prop.jpeg';
+import charterImg from '../assets/images/charter-flight.jpg';
 
 const services = [
-    { title: "Aviation Consultancy", image: aviationImg, description: "Expert advice on permits, registration, and charters." },
-    { title: "Cargo Forwarding", image: cargoImg, description: "Sea & air logistics, including live animal transport." },
-    { title: "Marketing & PR", image: marketingImg, description: "Branding, event décor, and promotional strategies." }
+    { 
+        title: "Aviation Consultancy", 
+        image: aviationImg, 
+        description: "Expert advice on permits, registration, aircraft handling, and airline operations in East Africa." 
+    },
+    { 
+        title: "Cargo Handling & Forwarding", 
+        image: cargoImg, 
+        description: "Specialized cargo handling, including live animal transport and international freight solutions." 
+    },
+    { 
+        title: "Charter Flight Coordination", 
+        image: charterImg, 
+        description: "Providing on-demand charter flight services for private, corporate, and cargo needs." 
+    }
 ];
 
 const Services = () => {
@@ -20,9 +32,10 @@ const Services = () => {
             transition={{ duration: 1.5 }}
         >
             <Container className="my-5">
-                <h2 className="text-center mb-4">Our Services</h2>
-                <p><i>At BREAC LTD, we offer tailored solutions including outsourced productions, aviation consultancy, cargo clearing, PR and marketing, 
-                    and event decor branding. Partner with us for innovative, results-driven services that deliver excellence.</i></p>
+                <h2 className="text-center mb-4">Our Airline Services</h2>
+                <p className="text-center">
+                    <i>At Breac Ltd, we provide top-tier aviation services, specializing in airline representation, cargo operations, and charter flight solutions.</i>
+                </p>
                 <Row className="g-4"> {/* Bootstrap spacing class */}
                     {services.map((service, index) => (
                         <Col md={4} key={index} className="service-spacing">
