@@ -3,6 +3,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import aviationLogo from '../assets/images/alpha-sky image.jpeg'; 
 import cobrexLogo from '../assets/images/cobrex.jpg'; 
 import sacLogo from '../assets/images/SAC-Logo.jpg';
+import './OurClients.css'; // Import styling
 
 const clients = [
     { name: "Alpha Sky Aviation (UAE)", logo: aviationLogo, testimonial: "Breac Ltd has been a reliable partner in aviation logistics, ensuring seamless operations." },
@@ -17,8 +18,8 @@ const OurClients = () => {
             <Row>
                 {clients.map((client, index) => (
                     <Col md={4} key={index} className="mb-4">
-                        <Card className="shadow-sm">
-                            <Card.Img variant="top" src={client.logo} className="client-logo p-3" />
+                        <Card className="shadow-sm client-card">
+                            <Card.Img variant="top" src={client.logo} className="client-logo" />
                             <Card.Body>
                                 <Card.Title>{client.name}</Card.Title>
                                 <Card.Text>"{client.testimonial}"</Card.Text>

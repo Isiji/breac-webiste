@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import aviationImg from '../assets/images/aviationconsultancy.webp';
 import cargoImg from '../assets/images/cargoImg.jpg';
 import charterImg from '../assets/images/charter-flight.jpg';
+import './Services.css'; // Import styling
 
 const services = [
     { 
@@ -40,7 +41,7 @@ const Services = () => {
                     {services.map((service, index) => (
                         <Col md={4} key={index} className="service-spacing">
                             <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.2 }}>
-                                <Card className="text-center">
+                                <Card className="text-center service-card">
                                     <Card.Img variant="top" src={service.image} alt={service.title} className="service-image" />
                                     <Card.Body>
                                         <Card.Title>{service.title}</Card.Title>
