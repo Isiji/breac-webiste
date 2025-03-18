@@ -1,0 +1,28 @@
+.gsa-container {
+    background-color: #e6f0ff; /* Light Blue Background */
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.gsa-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.gsa-list {
+    padding-left: 20px;
+}
+
+.gsa-list li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Image Styling */
+.gsa-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}

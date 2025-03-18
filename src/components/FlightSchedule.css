@@ -1,0 +1,47 @@
+.flight-schedule-container {
+    padding: 40px;
+    background-color: #e6f0ff; /* Light Blue Background */
+    border-radius: 10px;
+}
+
+.flight-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.schedule-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.schedule-list li {
+    font-size: 16px;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+}
+
+.schedule-icon {
+    margin-right: 8px;
+    color: #003366; /* Deep Blue */
+    font-size: 1.2rem;
+}
+
+/* Reduced image size */
+.schedule-image {
+    width: 100%;
+    max-width: 300px; /* Adjusted for better alignment */
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.booking-btn {
+    background-color: #ff6600;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.booking-btn:hover {
+    background-color: #cc5500;
+}

@@ -4,7 +4,8 @@ import Hero from '../components/Hero';
 import Services from '../components/Services';
 import OurClients from '../components/OurClients';
 import About from '../components/About';
-import CompanyStats from '../components/CompanyStats'; // New Component
+import GSAServices from '../components/GSAServices';
+import FlightSchedule from '../components/FlightSchedule';
 import './Home.css';
 
 const Home = () => {
@@ -19,9 +20,14 @@ const Home = () => {
                 </div>
             </Link>
 
-            {/* Dynamic Company Stats Section */}
+            {/* Our GSA Services Section */}
             <div className="section-spacing">
-                <CompanyStats />
+                <GSAServices />
+            </div>
+
+            {/* Expandable Flight Schedule Section */}
+            <div className="section-spacing">
+                <FlightSchedule />
             </div>
 
             {/* Clickable Our Clients Section */}
