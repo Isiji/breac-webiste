@@ -8,19 +8,34 @@ import './Services.css'; // Import styling
 
 const services = [
     { 
-        title: "Aviation Consultancy", 
+        title: "Outsourced Productions & General Supplies", 
         image: aviationImg, 
-        description: "Expert advice on permits, registration, aircraft handling, and airline operations in East Africa." 
+        description: "We provide high-quality outsourced production solutions and general supplies for businesses and industries." 
     },
     { 
-        title: "Cargo Handling & Forwarding", 
+        title: "Aviation Research Analysis & Consultancy", 
         image: cargoImg, 
-        description: "Specialized cargo handling, including live animal transport and international freight solutions." 
+        description: "Comprehensive research and consultancy services for airlines, airport operations, and aviation regulations." 
     },
     { 
-        title: "Charter Flight Coordination", 
+        title: "Cargo Clearing & Forwarding", 
         image: charterImg, 
-        description: "Providing on-demand charter flight services for private, corporate, and cargo needs." 
+        description: "Reliable cargo clearing and forwarding, including specialized handling for live animals and perishable goods." 
+    },
+    { 
+        title: "PR & Marketing Consultancy", 
+        image: aviationImg, 
+        description: "Strategic public relations and marketing solutions tailored for airlines and aviation businesses." 
+    },
+    { 
+        title: "Airline Landing & Special Transit Permits", 
+        image: cargoImg, 
+        description: "Facilitating landing rights, overflight clearances, and special transit permits for airlines." 
+    },
+    { 
+        title: "Airlines Local Representation", 
+        image: charterImg, 
+        description: "Acting as local representatives for international airlines, ensuring smooth operations and compliance." 
     }
 ];
 
