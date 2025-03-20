@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/breac-webiste/static/css/main.716c9ce2.css",
-    "main.js": "/breac-webiste/static/js/main.3780855d.js",
+    "main.js": "/breac-webiste/static/js/main.621bc0b2.js",
     "static/js/453.40d8176c.chunk.js": "/breac-webiste/static/js/453.40d8176c.chunk.js",
     "static/media/charter-flight.jpg": "/breac-webiste/static/media/charter-flight.b18fda54857ee4cd2242.jpg",
     "static/media/airline_representation.jpg": "/breac-webiste/static/media/airline_representation.2f14f579c554d7e9b02c.jpg",
@@ -23,11 +23,11 @@
     "static/media/marketingPR.avif": "/breac-webiste/static/media/marketingPR.e2054f7efa174a4d1cb2.avif",
     "index.html": "/breac-webiste/index.html",
     "main.716c9ce2.css.map": "/breac-webiste/static/css/main.716c9ce2.css.map",
-    "main.3780855d.js.map": "/breac-webiste/static/js/main.3780855d.js.map",
+    "main.621bc0b2.js.map": "/breac-webiste/static/js/main.621bc0b2.js.map",
     "453.40d8176c.chunk.js.map": "/breac-webiste/static/js/453.40d8176c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.716c9ce2.css",
-    "static/js/main.3780855d.js"
+    "static/js/main.621bc0b2.js"
   ]
 }
