@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/breac-webiste/static/css/main.7978d806.css",
-    "main.js": "/breac-webiste/static/js/main.b189f2fd.js",
+    "main.css": "/breac-webiste/static/css/main.716c9ce2.css",
+    "main.js": "/breac-webiste/static/js/main.3780855d.js",
     "static/js/453.40d8176c.chunk.js": "/breac-webiste/static/js/453.40d8176c.chunk.js",
     "static/media/charter-flight.jpg": "/breac-webiste/static/media/charter-flight.b18fda54857ee4cd2242.jpg",
     "static/media/airline_representation.jpg": "/breac-webiste/static/media/airline_representation.2f14f579c554d7e9b02c.jpg",
@@ -16,17 +16,18 @@
     "static/media/bluechip.jpg": "/breac-webiste/static/media/bluechip.fcb9b60a9bd2b5543f9e.jpg",
     "static/media/airplane.jpg": "/breac-webiste/static/media/airplane.5a581e44ecfb187a1de9.jpg",
     "static/media/aircargo.jpg": "/breac-webiste/static/media/aircargo.00f8e49b0ee742bb8217.jpg",
+    "static/media/aviationcargo.webp": "/breac-webiste/static/media/aviationcargo.c562b7b8b36c2360feda.webp",
     "static/media/aviationconsultancy.webp": "/breac-webiste/static/media/aviationconsultancy.ba3f0e4a5f854b59404c.webp",
     "static/media/b737.jpg": "/breac-webiste/static/media/b737.7d35cc1afe8da1d5552e.jpg",
     "static/media/outsourced-production.avif": "/breac-webiste/static/media/outsourced-production.fbb63527174f57fa99d5.avif",
     "static/media/marketingPR.avif": "/breac-webiste/static/media/marketingPR.e2054f7efa174a4d1cb2.avif",
     "index.html": "/breac-webiste/index.html",
-    "main.7978d806.css.map": "/breac-webiste/static/css/main.7978d806.css.map",
-    "main.b189f2fd.js.map": "/breac-webiste/static/js/main.b189f2fd.js.map",
+    "main.716c9ce2.css.map": "/breac-webiste/static/css/main.716c9ce2.css.map",
+    "main.3780855d.js.map": "/breac-webiste/static/js/main.3780855d.js.map",
     "453.40d8176c.chunk.js.map": "/breac-webiste/static/js/453.40d8176c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7978d806.css",
-    "static/js/main.b189f2fd.js"
+    "static/css/main.716c9ce2.css",
+    "static/js/main.3780855d.js"
   ]
 }
