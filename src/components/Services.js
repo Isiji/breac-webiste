@@ -6,6 +6,7 @@ import cargoImg from '../assets/images/aviationcargo.webp';
 import charterImg from '../assets/images/charter-flight.jpg';
 import outsourced from '../assets/images/outsourced-production.avif';
 import transit from '../assets/images/transit-permits.jpg';
+import marketingpr from '../assets/images/marketingPR.avif';
 import './Services.css'; // Import styling
 
 const services = [
@@ -26,7 +27,7 @@ const services = [
     },
     { 
         title: "PR & Marketing Consultancy", 
-        image: aviationImg, 
+        image: marketingpr, 
         description: "Strategic public relations and marketing solutions tailored for airlines and aviation businesses." 
     },
     { 
