@@ -6,7 +6,7 @@ import './Header.css'; // Ensure this is in the same folder
 
 const Header = () => {
     return (
-        <Navbar expand="lg" className="shadow-sm custom-navbar">
+        <Navbar expand="lg" className="custom-navbar shadow-sm">
             <Container>
                 {/* Logo and company name */}
                 <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">

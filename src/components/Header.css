@@ -6,8 +6,15 @@
     font-weight: bold;
     padding: 10px 0;
     font-style: italic;
-    position: fixed;
+    position: fixed; /* Keeps header at the top */
     width: 100%;
+    top: 0; /* Ensure it sticks to the top */
+    z-index: 1000; /* Keeps header above all content */
+}
+
+/* Add margin so content doesn’t get hidden behind the fixed header */
+.body-content {
+    margin-top: 80px; /* Adjust based on header height */
 }
 
 .navbar-brand {

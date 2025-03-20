@@ -2,24 +2,26 @@ import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import aviationImg from '../assets/images/aviationconsultancy.webp';
-import cargoImg from '../assets/images/cargoImg.jpg';
+import cargoImg from '../assets/images/aviationcargo.webp';
 import charterImg from '../assets/images/charter-flight.jpg';
+import outsourced from '../assets/images/outsourced-production.avif';
+import transit from '../assets/images/transit-permits.jpg';
 import './Services.css'; // Import styling
 
 const services = [
     { 
         title: "Outsourced Productions & General Supplies", 
-        image: aviationImg, 
+        image: outsourced, 
         description: "We provide high-quality outsourced production solutions and general supplies for businesses and industries." 
     },
     { 
         title: "Aviation Research Analysis & Consultancy", 
-        image: cargoImg, 
+        image: aviationImg, 
         description: "Comprehensive research and consultancy services for airlines, airport operations, and aviation regulations." 
     },
     { 
         title: "Cargo Clearing & Forwarding", 
-        image: charterImg, 
+        image: cargoImg, 
         description: "Reliable cargo clearing and forwarding, including specialized handling for live animals and perishable goods." 
     },
     { 
@@ -29,7 +31,7 @@ const services = [
     },
     { 
         title: "Airline Landing & Special Transit Permits", 
-        image: cargoImg, 
+        image: transit, 
         description: "Facilitating landing rights, overflight clearances, and special transit permits for airlines." 
     },
     { 
