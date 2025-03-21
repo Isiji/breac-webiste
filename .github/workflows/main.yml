@@ -13,9 +13,6 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v3
 
-    - name: Move to React Project Folder
-      run: cd breac-webiste  # Replace this with the actual folder name if your project is inside a subfolder
-
     - name: Install and Build
       run: |
         npm install
@@ -25,4 +22,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./breac-webiste/build  # Make sure this points to the correct build folder
+        publish_dir: ./build  # Make sure this points to the correct build folder
