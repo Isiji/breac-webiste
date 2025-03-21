@@ -3,7 +3,10 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # Ensure you deploy from the correct branch
+      - main  # Deploy on push to main branch
+
+permissions:
+  contents: write  # Required for deployment
 
 jobs:
   deploy:
@@ -13,7 +16,7 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v3
 
-    - name: Install and Build
+    - name: Install Dependencies and Build
       run: |
         npm install
         npm run build
@@ -22,4 +25,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build  # Make sure this points to the correct build folder
+        publish_branch: gh-pages
+        publish_dir: ./build
