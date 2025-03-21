@@ -13,12 +13,8 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name: Move into Project Directory
-      run: cd breac-website/breac-website  # Navigate into the correct subfolder
-
     - name: Install Dependencies and Build
       run: |
-        cd breac-website/breac-website  # Make sure commands run inside the project folder
         npm install
         npm run build
 
@@ -26,4 +22,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./breac-website/breac-website/build  # Ensure the build folder is deployed
+        publish_dir: ./build  # Ensure the build folder is deployed
