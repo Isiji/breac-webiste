@@ -26,7 +26,7 @@ const GSAServices = () => {
                                 </p>
                                 <ul className="gsa-list">
                                     <li><b>B737-400F</b> – <b>19 tons cargo capacity</b></li>
-                                    <li><b>B757-2F</b> – <b>35 tons cargo capacity</b></li>
+                                    <li><b>B757-2F</b> – <b>35 tons cargo capacity </b></li>
                                 </ul>
                                 <p>
                                     Our team ensures seamless <b>cargo handling, customs clearance, and logistics support</b>
