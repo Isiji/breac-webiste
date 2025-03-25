@@ -1,5 +1,6 @@
+// App.js (Updated)
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom'; // Remove HashRouter import
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -9,7 +10,8 @@ import Contact from './pages/Contact';
 
 const App = () => {
     return (
-        <Router>
+        // Remove the <Router> wrapper since it's already in index.js
+        <>
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -18,7 +20,7 @@ const App = () => {
                 <Route path="/contact" element={<Contact />} />
             </Routes>
             <Footer />
-        </Router>
+        </>
     );
 };
 
