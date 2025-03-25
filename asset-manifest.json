@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b2d0033f.css",
-    "main.js": "/static/js/main.95444c06.js",
+    "main.js": "/static/js/main.0761e62f.js",
     "static/js/453.40d8176c.chunk.js": "/static/js/453.40d8176c.chunk.js",
     "static/media/charter-flight.jpg": "/static/media/charter-flight.b18fda54857ee4cd2242.jpg",
     "static/media/airline_representation.jpg": "/static/media/airline_representation.2f14f579c554d7e9b02c.jpg",
@@ -23,11 +23,11 @@
     "static/media/marketingPR.avif": "/static/media/marketingPR.e2054f7efa174a4d1cb2.avif",
     "index.html": "/index.html",
     "main.b2d0033f.css.map": "/static/css/main.b2d0033f.css.map",
-    "main.95444c06.js.map": "/static/js/main.95444c06.js.map",
+    "main.0761e62f.js.map": "/static/js/main.0761e62f.js.map",
     "453.40d8176c.chunk.js.map": "/static/js/453.40d8176c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2d0033f.css",
-    "static/js/main.95444c06.js"
+    "static/js/main.0761e62f.js"
   ]
 }
